@@ -42,3 +42,44 @@ header {
     border-radius: 5px;
     height: 64px
 }
+
+/* previous year section style */
+.previous-year {
+    max-width: 1072px;
+    margin-top: 130px;
+    display: flex;
+    margin-left: 206px;
+    align-items: center;
+}
+
+.failure {
+    margin-left: 87px;
+}
+
+.previous-year-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.description {
+    margin-top: 24px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+}
+
+.check-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.list {
+    font-size: 16px;
+    color: #444343;
+}
