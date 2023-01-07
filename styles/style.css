@@ -83,3 +83,35 @@ header {
     font-size: 16px;
     color: #444343;
 }
+
+/* my plans section */
+.my-plan-section {
+    margin: 130px 230px;
+}
+
+.my-plan-title {
+    font-size: 40px;
+    font-weight: 700px;
+    color: #151414;
+    text-align: center;
+}
+
+.plans-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+}
+
+.plan-description {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
