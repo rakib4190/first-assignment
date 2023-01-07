@@ -120,7 +120,6 @@ header {
 .gradient {
     margin-left: 230px;
     max-width: 1140px;
-    margin-bottom: 200px;
     background-image: linear-gradient(#5a72e38a, #13c3514a, #46ae46e8), url(../images/watch.png);
 }
 
@@ -132,7 +131,7 @@ header {
     margin-top: 59px;
 }
 
-.contact-btn {
+.call-btn {
     margin-top: 10px;
     margin-left: 64px;
     font-weight: 600;
@@ -143,4 +142,56 @@ header {
     height: 50px;
     border-radius: 5px;
     text-align: center;
+}
+
+/* footer section */
+.footer-section {
+    margin-top: 130px;
+    background-color: black;
+
+}
+
+.footer-container {
+    display: flex;
+
+    gap: 321px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.section-title {
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #f8f8f8;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+.contact-section {
+    padding-bottom: 50px;
+}
+
+.personal-info {
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 24px;
+}
+
+a img {
+    text-decoration: none;
+    margin-top: 32px;
+}
+
+input[type="email"] {
+    border: 0;
+}
+
+input {
+    height: 40px;
+    width: 100%
 }
